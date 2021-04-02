@@ -5,16 +5,16 @@ import psycopg2
 
 sql_query = '''
     SELECT 
-    "Year", 
-    "RegName",
-    round(avg("Ball100"),3),
-    round(avg("Ball12"),3),
-    round(avg("Ball"),3)
+        "Year", 
+        "RegName",
+        round(avg("Ball100"),3),
+        round(avg("Ball12"),3),
+        round(avg("Ball"),3)
     from "Test"
     JOIN "Person"
-    ON "Test"."PersonID"="Person"."PersonID"
+        ON "Test"."PersonID"="Person"."PersonID"
     JOIN "Region"
-    ON "Region"."RegionID"="Person"."RegionID"
+        ON "Region"."RegionID"="Person"."RegionID"
     WHERE "Test"."TestStatus"='Зараховано' AND "Test"."TestName"='Українська мова і література'
     GROUP BY "Test"."Year", "Region"."RegName"
 '''
