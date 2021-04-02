@@ -7,9 +7,9 @@ sql_query = '''
     SELECT 
         zno_year,
         REGNAME,
-        round(avg(UkrBall100),1),
-        round(avg(UkrBall12),1),
-        round(avg(UkrBall),1)
+        round(avg(UkrBall100),3),
+        round(avg(UkrBall12),3),
+        round(avg(UkrBall),3)
         
     FROM zno 
     WHERE UkrTestStatus = 'Зараховано' 
