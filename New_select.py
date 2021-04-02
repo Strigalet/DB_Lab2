@@ -7,9 +7,9 @@ sql_query = '''
     SELECT
         "Year", 
 	"RegName",
-        round(avg("Ball100"),3) , 
-	round(avg("Ball12"),3) , 
-	round(avg("Ball"),3)
+        round(avg("Ball100"),1) , 
+	round(avg("Ball12"),1) , 
+	round(avg("Ball"),1)
     FROM "Test"
     LEFT JOIN "EO"
     ON "Test"."PTEOName"="EO"."EOName"
