@@ -11,8 +11,8 @@ flyway.user="your username"
 flyway.password="your password"
 
 2. Add Odata2019/2020File.csv files in "data" folder.
-3. Add your sql files into /sql folder for future migration. (you can already use "flyway migrate" in cmd to migrate the database without data)
-4. Run create.py to create the zno and zno_temp tables.
+3. Add your sql files into /"sql" folder for future migration. (you can already use "flyway baseline/migrate" in cmd to migrate the database without data)
+4. Run create.py to create the "zno" and "zno_temp" tables.
 5. Run populate.py to fill this tables with data from csv files.
 
 6. Now you can run Old_select.py to see completed task with data from "zno" table.
