@@ -19,7 +19,7 @@ flyway.password="your password"
 7. Run "flyway baseline"  and then "flyway migrate" in command line. Wait one eternity.
 
 8. Check Migration.jpg for successful migration.
-![Migration](https://user-images.githubusercontent.com/44712899/113462308-ee25f600-9428-11eb-84bb-005d837c034b.jpg)
+![Migration](https://user-images.githubusercontent.com/44712899/113474406-80091f80-9478-11eb-92b4-cfa9c7f68909.png)
 
 9. Now you can run New_select.py to see completed task with data from new created tables with migrated data from "zno".
 10. Search "result" folder to see results of work. (If they are equal that means we didn't lost any data)
