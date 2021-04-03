@@ -1,4 +1,4 @@
-# Kasich Bogdan KM-83 Lab Work 2 (Variant - 2)
+# Kasich Bogdan KM-83 Lab Work 2
 Instructions:
 
 0. Download flyway tool from flyway.org
